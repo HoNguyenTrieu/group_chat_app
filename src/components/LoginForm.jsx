@@ -35,7 +35,9 @@ const LoginForm = () => {
     <div className="wrapper">
       <div className="form">
         <h1 className="title">Chat Application</h1>
-        <p>Try test with user01 and user02 with password: 123456</p>
+        <p className="text-center" align="center" style={{ color: "white" }}>
+          Try test with user01 and user02 with password: 123456
+        </p>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
